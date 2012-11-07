@@ -40,22 +40,26 @@ given a file of csv integers, for each row, multiply the integers and print the 
 * handle invalid data (a field that is not a number)
 
 
-### read data from a website
-display the html from the google website.
+### dsl1 - run a script file from within a script
 
-
-### get the current stock values
-
-lookup the stock values for goog, ibm, 
-https://www.google.com/finance?client=ob&q=GOOG
-
-
-
-### run a script file from within a script
-
-create a file that has "println hello world"
+create a dsl file that has "println hello world"
 create a file that loads and executes the script
+* use groovy.lang.GroovyShell
+
+### dsl2 - run a script file from within a script, with binding
+
+create a dsl file that has "println hello ${name}"
+create a file that
+* first argument is the dsl script file
+* second argument is the name
+* use groovy.lang.GroovyShell
 
 
+### dsl3 - run a script file from within a script, with 2-way binding
 
-
+*
+* create a dsl that performs the Pythagorean theorem function, returning the value x
+* c^2 = a^2 + b^2
+* create a data file that has 2 csv integers, for the two sized of the triangle.
+* write a driver that reads the data file, and runs the dsl, and print the results
+* 
