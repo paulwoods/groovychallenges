@@ -18,11 +18,9 @@ Challenges
 A small test to see that your system is configured for groovy.
 
 
-
 ### arguments - handle command line arguments
 write a script that will display "Hello" plut the first command line argument.
 and display a error message if no argument, or too many arguments.
-
 
 
 ### openfile - open a file and display its contents
@@ -31,17 +29,19 @@ the filename specified by the command line argument.
 
 * try reading the entire file at once and displaying it.
 * try reading the file line-by-line and displaying the content.
+* handle the file not found
 
 
+### multiply - open a file, process it, and output the results too screen
+given a file of csv integers, for each row, multiply the integers and print the results.
 
-### open a file, process it, and output the results too screen
-
-given a file of csv numbers, for each row, multiple the numbers and print the results
+* handle blank lines
+* handle a varying number of integers per line
+* handle invalid data (a field that is not a number)
 
 
 ### read data from a website
-
-display the html from the google website
+display the html from the google website.
 
 
 ### get the current stock values
