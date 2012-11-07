@@ -16,14 +16,23 @@ Challenges
 
 ### helloworld
 A small test to see that your system is configured for groovy.
-	
+
+
+
 ### arguments - handle command line arguments
-write a script that will display the name of the first command line argument
-and display a error message if no argument, or too many arguments
+write a script that will display "Hello" plut the first command line argument.
+and display a error message if no argument, or too many arguments.
 
-### open a file and display its contents
 
-open the file specified by the command line argument, and display its contents
+
+### openfile - open a file and display its contents
+open a file and display its contents.
+the filename specified by the command line argument.
+
+* try reading the entire file at once and displaying it.
+* try reading the file line-by-line and displaying the content.
+
+
 
 ### open a file, process it, and output the results too screen
 
